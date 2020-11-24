@@ -65,8 +65,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #858796;
-  text-align: left;
+  text-align: right;
   background-color: #fff;
+  /*! direction: rtl; */
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -87,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  direction: rtl;
 }
 
 abbr[title],
@@ -3016,7 +3018,7 @@ input[type="button"].btn-block {
   margin: 0.125rem 0 0;
   font-size: 0.85rem;
   color: #858796;
-  text-align: left;
+  text-align: right;
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
@@ -3183,7 +3185,7 @@ input[type="button"].btn-block {
   clear: both;
   font-weight: 400;
   color: #3a3b45;
-  text-align: inherit;
+  text-align: right;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -3449,7 +3451,7 @@ input[type="button"].btn-block {
 }
 
 .input-group-append {
-  margin-left: -1px;
+  margin-right: -1px;
 }
 
 .input-group-text {
@@ -3518,8 +3520,10 @@ input[type="button"].btn-block {
 .input-group > .input-group-append:not(:last-child) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
-  border-top-right-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .input-group > .input-group-append > .btn,
@@ -7377,7 +7381,7 @@ button.bg-dark:focus {
 }
 
 .float-right {
-  float: right !important;
+  float: left !important;
 }
 
 .float-none {
@@ -7667,7 +7671,7 @@ button.bg-dark:focus {
 
 .mr-2,
 .mx-2 {
-  margin-right: 0.5rem !important;
+  margin-left:  0.5rem !important;
 }
 
 .mb-2,
@@ -7691,7 +7695,7 @@ button.bg-dark:focus {
 
 .mr-3,
 .mx-3 {
-  margin-right: 1rem !important;
+  margin-left: 1rem !important;
 }
 
 .mb-3,
@@ -8027,7 +8031,7 @@ button.bg-dark:focus {
 
 .mr-auto,
 .mx-auto {
-  margin-right: auto !important;
+  margin-left: auto !important;
 }
 
 .mb-auto,
@@ -8037,7 +8041,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 @media (min-width: 576px) {
@@ -8460,7 +8464,7 @@ button.bg-dark:focus {
   }
   .ml-md-3,
   .mx-md-3 {
-    margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .m-md-4 {
     margin: 1.5rem !important;
@@ -10229,7 +10233,7 @@ a:focus {
   border-radius: 100%;
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   border: 0.125rem solid #fff;
 }
 
@@ -10248,7 +10252,7 @@ a:focus {
   }
   .topbar .dropdown .dropdown-menu {
     width: auto;
-    right: 0;
+    left: 0;
   }
   .topbar .dropdown-list {
     width: 20rem !important;
@@ -10497,7 +10501,7 @@ a:focus {
   .sidebar .nav-item .nav-link {
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: right;
     padding: 1rem;
     width: 14rem;
   }
@@ -10512,7 +10516,7 @@ a:focus {
   .sidebar .nav-item .nav-link[data-toggle="collapse"]::after {
     width: 1rem;
     text-align: center;
-    float: right;
+    float: left;
     vertical-align: 0;
     border: 0;
     font-weight: 900;
@@ -10520,7 +10524,7 @@ a:focus {
     font-family: 'Font Awesome 5 Free';
   }
   .sidebar .nav-item .nav-link[data-toggle="collapse"].collapsed::after {
-    content: '\f105';
+    content: '\f104';
   }
   .sidebar .sidebar-brand .sidebar-brand-icon i {
     font-size: 2rem;
@@ -10529,7 +10533,7 @@ a:focus {
     display: inline;
   }
   .sidebar .sidebar-heading {
-    text-align: left;
+    text-align: right;
   }
   .sidebar.toggled {
     overflow: visible;
