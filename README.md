@@ -1,8 +1,10 @@
-# [Start Bootstrap - SB Admin 2](https://startbootstrap.com/theme/sb-admin-2/)
+# [Start Bootstrap - SB Admin 2 Rtl](https://startbootstrap.com/theme/sb-admin-2/)
 
 [SB Admin 2](https://startbootstrap.com/theme/sb-admin-2/) is an open source admin dashboard theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
 
 For the legacy Bootstrap 3 version of this theme, you can view the [last stable release](https://github.com/StartBootstrap/startbootstrap-sb-admin-2/releases/tag/v3.3.7%2B1) of SB Admin 2 for Bootstrap 3.
+
+sb-admin2-rtl is a RTL version of the Bootstrap based admin theme SB Admin 2. Originally created by Start Bootstrap, all the credits of the development of the Bootstrap admin theme are of them. This is just and RTL adaptation.
 
 ## Preview
 
