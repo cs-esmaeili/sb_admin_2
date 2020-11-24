@@ -6,7 +6,7 @@ For the legacy Bootstrap 3 version of this theme, you can view the [last stable 
 
 ## Preview
 
-[![SB Admin 2 Preview](https://github.com/cs-esmaeili/sb_admin_2/blob/main/Capture.png)](https://startbootstrap.github.io/startbootstrap-sb-admin-2/)
+[![SB Admin 2 Preview](https://github.com/cs-esmaeili/sb_admin_2/blob/main/Capture.PNG)](https://startbootstrap.github.io/startbootstrap-sb-admin-2/)
 
 [![SB Admin 2 Preview](https://assets.startbootstrap.com/img/screenshots/themes/sb-admin-2.png)](https://startbootstrap.github.io/startbootstrap-sb-admin-2/)
 
